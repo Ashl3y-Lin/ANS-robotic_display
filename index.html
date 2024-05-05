@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+    <link rel="icon" href="https://i.ibb.co/9Ztfdxp/ROBOTICS.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="dropdown-sidebar.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+
+    <!-- 3 columns -->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#home"><img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt=""> Home ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <ul  class="dropdown">
+                            <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#accordion-steps">Begin?</a></li>
+                            <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#guidance-div">10_Topics</a></li>
+                            <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#accordion-questions"> Questions</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                
+                <li class="with-dropdown">
+                    <a href="#topic-buttons"><img src="https://i.ibb.co/8XYKTgh/reading-book-1.png" alt=""> Topics ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="https://ashl3y-lin.github.io/ANS-robotic_movement-part1/">Movement</a></li>
+                        <li><a href="https://ashl3y-lin.github.io/ANS-Robotic_motor-part1/">Motor</a></li>
+                        <li><a href="#">Display</a></li>
+                        <li><a href="#">Sound</a></li>
+                        <li><a href="#">Control</a></li>
+                        <li><a href="#">Sensors</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Operator</a></li>
+                        <li><a href="#">Variable</a></li>
+                        <li><a href="#">My Block</a></li>
+
+                    </ul>
+                </li>
+               
+                <li><a href="#wro"><img src="https://i.ibb.co/Drnm7cM/competition.png" alt=""> About WRO ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">WRO?</a></li>
+                        <li><a href="#">ANS_journey</a></li>
+                        <li><a href="#">Tips</a></li>
+                    </ul>
+                </li>
+
+                <!-- Dropdrown of WRO: experiences. tips -->
+            </ul>
+        </nav>
+    </header>
+    
+
+<div class="wrapper">
+        <div class="header-content" id="movement-home">
+            <h1>Display</h1>
+            <div>
+                <p>
+                    Display: it's to show in the brick numbers/words/pictures or values.
+                </p>
+            </div>
+        </div>
+            
+            <div class="side-bar">
+                <div class="menu">
+                    <div class="item">
+                        <div class="movement-logo"><a href="#movement-home"><img src="https://i.ibb.co/w6t0xBV/logo-display.png" alt="logo-display" height="90"></div>
+                        
+
+                        <a href="#movement-home"><span class="side-bar-title-1">Display</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#below-header" class="sub-item"> Introduction</a></li>
+                            <li><a href="#display-words" class="sub-item">Display words/numbers</a></li>
+                            <li><a href="#display-emoji" class="sub-item">Display Emoji</a></li>
+                            <li><a href="#display-move-emoji" class="sub-item">Movement + display</a></li>
+                            <li><a href="#challengeYou" class="sub-item">Challenge for you</a></li>
+                            <li><a href="#movement-key-takeaway" class="sub-item">Key-takeaways</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- The introduction section -->
+        <div class="three-columns grid-container-height" id="below-header">
+            <div class="grid-item">
+                <div class="flex-item">
+                    <img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/2a068bc435627b569862da5e0523a113/large.jpg" alt="pink-movement-robot" >
+                    <p>The brick it's where it's going show/display everything!</p>
+                </div>
+            </div>
+            <div class="grid-item unite">
+                <div class="flex-item img-smaller">
+                    <img src="https://robotjavascript.com/images/EV3_Brick_DisplayDimensions.png" alt="gif-rotation">
+                    <p>The words/numbers /pictures will be in pixels.</p>
+                </div>
+                <div class="flex-item">
+                    <img src="https://images.wondershare.com/mockitt/tips/pixel-01.jpg" alt="pixels">
+                    <p>"Pixels" are like tiny, colorful building blocks that make up pictures on your computer, phone, or TV screen.</p>
+                </div>
+            </div>
+                
+        </div>
+
+<!-- Div grid-container: main container -->
+<div class="grid-container">
+
+        <!-- Display letter -->
+            <div id="display-words" class="grid-item together pink-background">
+                <div class="flex-grid flex-container flex-item-split">
+
+                        <div class="both2">
+                            <h2>Displaying words</h2>
+                        </div>
+                        
+                        <div class="both3 img-smaller">
+                            <img src="https://i.ibb.co/RYRBb6F/1-display-words.jpg" alt="1-display-words">
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/6yqs5HC/1-display-words.png" alt="1-display-words">
+
+                        <p>* Notice that you can make the brick 3 different light color (green, red, and orange)</p>
+                        <p>* Notice that line[here] is to display the words in rows</p>
+                       
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Displaying emoji -->
+            <div id="display-emoji" class="grid-item together pink-background">
+                <div class="flex-grid flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Displaying emoji</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="https://s12.gifyu.com/images/SZrjD.gif" alt="purple-emoji">
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/3pW1F5y/2-display-emojis.png" alt="2-display-emojis">
+
+                        <p>* You can set an amount of second you want the robot to display</p>
+
+                        <p>* Go ahead exploring the emoji!</p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <!-- Display emoji + movement-->
+            <div id="display-move-emoji" class="grid-item together pink-background">
+                <div class="flex-grid flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Displaying emoji with movement</h2>
+                        </div>
+                        
+                        <div class="both3">
+                            <img src="https://s9.gifyu.com/images/SZrjQ.gif" alt="purple-Display-dizzy">
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/YhWcsz6/3-display-move-emoi.png" alt="3-display-move-emoi">
+                        <p>The robot made a 320 degrees spin turn at the speed of 75% and now its very dizzy 😵‍💫</p>
+
+                        <p>* You can make the robot's light off</p>
+                       
+                    </div>
+                </div>
+            </div>
+
+<!-- Challenge for you section -->
+            <div class="grid-item together opposite-background" id="challengeYou">
+                <div class="flex-grid flex-container flex-item challenge-container">
+                    <div class="letter-both">
+                        <h2>Challenge for you</h2>
+                    </div>
+                    <div class="flex-item">
+                        <img src="https://s9.gifyu.com/images/SZrYE.gif" alt="display-you-gif">
+                        <div class="paragraph-list">
+                            <strong>
+                                <p>Hint 1:</p>
+                            </strong>
+                            <p>-> Display a motor, then make an action.</p>
+                            <p>The actions:</p>
+                            <p>1- Forward(wheels) and (Motor A) UP. </p>
+                            <p>2- Backward(wheels) and (Motor A) DOWN.</p>
+                            <strong>
+                                <p>Hint 2:</p>
+                            </strong>
+                            <p>-> Brick Display:</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex-item cross-2row">
+                        <div id="hide-box">
+                            <img src="https://i.ibb.co/MpjDHSK/Display-you.png" alt="Display-you">
+                            <p>-- You can put the degrees forward/backward however you want</p>
+                            <p>-- Notice that you have to repeat it 2 times.</p>
+                        </div>
+                        <button class="unhide-button" onclick="ShowAnswer()">Show Answer</button>   
+                    </div>
+
+                    <div class="flex-item chal-you-split distint-color">
+                        <div>
+                            <p>"Large motor"</p>
+                            <img src="https://i.ibb.co/997z65b/IMG-1993.jpg" alt="display-large-motor">
+                        </div>
+                        <div>
+                            <p>"Medium motor"</p>
+                            <img src="https://i.ibb.co/CB7C2Np/IMG-1992.jpg" alt="display-medium-motor">
+                        </div>
+                         
+                        
+                     </div>
+ 
+                </div>
+            </div>
+            
+
+            <!-- Observation area -->
+            <div class="grid-item together no-background" id="movement-key-takeaway">
+                <div class="label">
+                    <h3>Key-Takeaways</h3>
+                </div>
+                <p>
+                    <ul class="observation-list">
+                        <strong>
+                            <li>Why does "Display" matter?</li>
+                        </strong>
+                        <li><strong>-> </strong>Showing You What the robot iss Thinking: Sometimes, EV3 needs to show you what it's doing or what it's thinking about.</li>
+                        <li><strong>-></strong> Letting You Know if Something's Wrong: If EV3 runs into a problem, it can use the display block to let you know. </li>
+                </p>
+            </div>
+
+            </div>
+
+    <!-- closure of div grid-container: main container -->
+    </div>
+
+    <!-- Buttons for next -->
+    <div class="bottom-buttons">
+        <a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/"><button id="home" class="home-icon"> <img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt="home-icon-silhouette" height="30"></button> </a>
+        <a href=""><button id="motors" class="next-button">Next: Sound <img src="https://i.ibb.co/0CWHhM7/icons8-arrow-full-white.png" alt="icons8-arrow-full-white" height="30" ></button></a>
+       
+    </div>
+
+
+          <!-- Footer -->
+        <div class="footer-container">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#home">Home</a></li>
+                    <li><a href="https://ashl3y-lin.github.io/ANS_Robotic_Home/#topic-buttons">Topics</a></li>
+                    <li><a href="#wro">About WRO</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy;2024; Designed by <span class="designer">Ashley Lin </span> | Senior 2024 | American Nicaraguan School</p>
+            </div>
+        </div>
+
+<!-- End of wrapper? -->
+    </div>
+    
+
+    <script src="quizSection.js"></script>
+    <script src="showAnswer.js"></script>
+    <script src="scroll-smooth.js"></script>
+</body>
+</html>
